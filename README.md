@@ -155,7 +155,7 @@ To run use `mpi`, we can run like this:
 mpirun -np 10 gmx_MMPBSA -O -i mmpbsa.in -cs gromacs.pdb -ct traj.xtc -ci index.ndx -cg 10 11 -cp gromacs.top -o FINAL_RESULTS_MMPBSA.dat -eo FINAL_RESULTS_MMPBSA.csv
 ```
 
-> Because I only provide a trajectory with 10 frames, the `-np` must smaller than the frame number.
+> Because I only provide a trajectory with 10 frames, the `-np` must smaller than the frame number. For a big system, be careful about the out of memory!
 
 To submit a job to the cell:
 
