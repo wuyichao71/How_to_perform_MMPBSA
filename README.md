@@ -72,7 +72,7 @@ To use the `gmx_MMPBSA` to perform MM/PBSA analysis, we should prepare gromacs f
 
 #### The topology files
 
-> All those precesses are in `charmm` directory.
+> All those precesses are in `charmm` directory. You need to prepare your `step3_input.psf` and `step3_input.crd`.
 
 We are going to use `ParmEd` to convert the *.psf file into a GROMACS topology file. To do so, use the ParmEd script that is already included in the `charmm` folder.
 
