@@ -58,6 +58,15 @@ conda activate gmx_MMPBSA
 
 ## run gmx_MMPBSA
 
+To use the `gmx_MMPBSA` to perform MM/PBSA analysis, we should prepare gromacs format trajectory (`.xtc`), topology (`.top`) and index file (`.ndx`). If you use psf_dcd files, you can refer to this [page](https://valdes-tresanco-ms.github.io/gmx_MMPBSA/1.6.4/examples/psf_dcd/protein_protein/) to know how to convert those format to gromacs format.
+
+### convert psf_dcd files
+
+#### The MD Structure+mass(db) and the trajectory files
+
+#### The topology files
+
+### The index file
 
 ## run MMPBSA.py
 
