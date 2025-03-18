@@ -1,2 +1,4 @@
-charmm
+charmm/step3_input.psf
+charmm/step3_input.crd
+charmm/traj.dcd
 amber
